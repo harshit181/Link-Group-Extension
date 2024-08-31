@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Link Group Extension",
+  "version": "1.0",
+  "description": "Add links to the current tab group or create a new group.",
+  "permissions": [
+    "contextMenus",
+    "tabs",
+    "tabGroups"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "48": "icons/icon.png"
+  },
+  "action": {
+    "default_icon": "icons/icon.png"
+  }
+}
